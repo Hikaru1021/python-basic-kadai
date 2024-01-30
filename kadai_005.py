@@ -10,4 +10,4 @@ Original file is located at
 the_top_side = 10
 the_bottom_side = 20
 the_height = 5
-print(f"{(the_top_side + the_bottom_side)*5/2}㎠")
+print(f"{(the_top_side + the_bottom_side)*the_height/2}㎠")
