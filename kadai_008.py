@@ -9,12 +9,6 @@ Original file is located at
 
 import random
 
-num = random.randint()
-
-print(num)
-
-import random
-
 var = random.randint(1,10)
 
 if var % 3 == 0 and var % 5 == 0:
