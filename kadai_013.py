@@ -9,7 +9,8 @@ Original file is located at
 
 def calculate_total(price,consumption_tax):
     total = price * (1 +consumption_tax / 100)
+    return(total)
 
-    print(f"{total}円")
+x = calculate_total(1000,10)
 
-calculate_total(1000,10)
+print(f"{x}円（税込）")
